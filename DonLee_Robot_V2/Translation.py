@@ -23,13 +23,13 @@ and see my pever 🔥🔥
 - 𝖠𝗇𝖽 𝗍𝗁𝖾 𝖿𝗈𝗅𝗅𝗈𝗐𝗂𝗇𝗀
 """
     ABOUT_TEXT = """
-📃 𝖡𝗈𝗍 : <a href="t.me/{}">𝖣𝗈𝗇𝖫𝖾𝖾 𝖱𝗈𝖻𝗈𝗍 V2</a>
-🧒 𝖣𝖾𝗏 : <a href="t.me/Mrk_yt">𝖬𝗎𝗁𝖺𝗆𝗆𝖾𝖽</a>
+📃 𝖡𝗈𝗍 : <a href="t.me/@Noruto321_bot">Noruto</a>
+🧒 𝖣𝖾𝗏 : <a href="t.me/@Mallu_mass">Zinan</a>
 🧒 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href="tg://user?id={}">{}</a>
 🗣️ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href="https://docs.pyrogram.org">𝖯𝗒𝗍𝗁𝗈𝗇3</a>
 📚 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href="https://docs.pyrogram.org">𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖠𝗌𝗒𝗇𝖼𝗂𝗈 1.13.0</a>
 🗒️ 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : <a href="t.me/{}">5.0.0 [𝖡𝖾𝗍𝖺]</a>
-📖 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : <a href="https://youtu.be/NrbMc93aCzA">𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a>
+📖 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : unavailable 😢 
 """
     SUB_TEXT = """
 𝖧𝖾𝗅𝗅𝗈 𝖿𝗋𝗂𝖾𝗇𝖽𝗌,
