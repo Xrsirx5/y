@@ -14,10 +14,12 @@ db = Database()
 @DonLee_Robot_V2.on_message(filters.command(["start", "alive"]) & filters.private)
 async def start(bot: DonLee_Robot_V2, msg: Import.Msg):
     START_BUTTON = [[  
-          Import.Button("➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖢𝗁𝖺𝗍𝗌 ➕", url=f"http://t.me/Noruto321_bot?startgroup=botstart")
+          Import.Button("➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼  𝘆𝗼𝘂𝗿 𝗰𝗵𝗮𝘁 ➕", url=f"http://t.me/Noruto321_bot?startgroup=botstart")
           ],[
-          Import.Button("⚠️ 𝖧𝖾𝗅𝗉", callback_data="help"),
-          Import.Button("𝖠𝖻𝗈𝗎𝗍 🤠", callback_data="about")
+          Import.Button("🔥 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 🔥", url=f"https://t.me/movie_bus6")
+          ],[
+          Import.Button("🤓 𝗛𝗲𝗹𝗽 🤓", callback_data="help"),
+          Import.Button("🤠 𝗔𝗯𝗼𝘂𝘁 🤠", callback_data="about")
           ]]
     if not await db.is_user_exist(msg.from_user.id):
         await db.add_user(msg.from_user.id)
@@ -67,7 +69,7 @@ async def start(bot: DonLee_Robot_V2, msg: Import.Msg):
         return
 
     button = [[
-     Import.Button('➕ Add Me To Your Groups ➕', url='http://t.me/Noruto321_bot?startgroup=true')
+     Import.Button('➕ 𝗮𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗰𝗵𝗮𝘁𝘀 ➕', url='http://t.me/Noruto321_bot?startgroup=true')
     ]]
     await msg.reply_photo(
     photo=random.choice(Config.PHOTO),
@@ -135,10 +137,10 @@ async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["sub", "subscribe"]) & filters.private, group=1)
 async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[     
-          Import.Button("🖥️𝖵𝗂𝖽𝖾𝗈", url="https://youtube.com/channel/UCVbKgUOGVEdQlmLJ_fXrWMQ"),
-          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="https://t.me/movie_bus6")
+          Import.Button("🤖Join now🤖", url="https://youtube.com/channel/UCVbKgUOGVEdQlmLJ_fXrWMQ"),
+          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="https://t.me/movie_")
           ],[
-          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://youtube.com/channel/UCVbKgUOGVEdQlmLJ_fXrWMQ"),
+          Import.Button("🧑‍💻dev🧑‍💻", url="https://t.me/Alifmuhammad_tg"),
           Import.Button("𝖸𝗈𝗎𝖳𝗎𝖻𝖾💞", url="https://youtube.com/channel/UCVbKgUOGVEdQlmLJ_fXrWMQ")
           ],[
           Import.Button("📦𝘵𝘦𝘭𝘦𝘨𝘳𝘢𝘮", url="https://t.me/Mallu_mass")
